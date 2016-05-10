@@ -3,8 +3,15 @@
 var Chatty = (function (chatty){
 
 
-var userMsgArray = [];
-var idVariable = 0;
+
+  //************************ Variables ***************************
+
+  var userMsgArray = [];
+  var idVariable = 0;
+
+
+
+  //************************ Public Functions ***************************
 
   // will add a message to the DOM with a unique id and into a private array
   chatty.addMessage = function(id, message){
@@ -32,6 +39,8 @@ var idVariable = 0;
   chatty.removeAllMessagesInArray = function () {
     userMsgArray = [];
   };
+
+
 
   return chatty;
 

@@ -6,25 +6,20 @@ var Chatty = (function (chatty){
 
   //************************ Variables ***************************
 
-  var darkTheme = $("#color-theme");
   var $border = $("#display-messages");
-  var $largeTheme = $("#color-theme");
   var $userInputText = $("#user-message-input");
   var $clearAllButton = $("#clear-msg");
-
-  // toggle classes for dark theme and large theme checkboxes
-  $("#input-toggle").click(function() {
-    darkTheme.toggleClass("theme");
-    $border.toggleClass("msg-white");
-    });
-
-  $("#large-toggle").click(function() {
-    $largeTheme.toggleClass("large");
-  });
+  var $body = $("#color-theme");
 
 
 
   //************************ Event Listeners ***************************
+
+  // toggle classes for dark theme
+  $("#input-toggle").click(toggleDark);
+
+  // toggle class for large theme
+  $("#large-toggle").click(toggleLarge);
 
   $userInputText.keyup(addUserMessage);
 
@@ -35,6 +30,17 @@ var Chatty = (function (chatty){
 
 
   //************************ Event Listener Functions ***************************
+
+  // toggles classes that control the dark theme
+  function toggleDark () {
+    $body.toggleClass("theme");
+    $border.toggleClass("msg-white");
+  }
+
+  // toggles class that controls the large theme
+  function toggleLarge () {
+    $body.toggleClass("large");
+  }
 
   // tests if key pressed is "enter" key;
   // if pressed, it passes the text input to the addMessage function and clears the text field

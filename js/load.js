@@ -2,6 +2,8 @@
 
 var Chatty = (function (chatty){
 
+
+
   // loads the json file and passes it to a function that places into the DOM and private message array
   $(document).ready(function(){
     $.ajax({
@@ -12,7 +14,7 @@ var Chatty = (function (chatty){
   });
 
 
+
   return chatty;
 
 }(Chatty || {}));
-
