@@ -1,0 +1,20 @@
+{
+  "name": "spa-group-chatty-cds",
+  "homepage": "https://github.com/CoryTohill/spa-group-chatty-cds",
+  "authors": [
+    "Cory Tohill <corytohill@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}

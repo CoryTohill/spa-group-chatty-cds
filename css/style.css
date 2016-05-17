@@ -1,0 +1,133 @@
+/*----------Default styles ------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-family: 'Exo 2', sans-serif;
+  background-image: url('../images/light-img.jpg');
+  color: black;
+}
+
+/*-------- Special Theme Styling----------- */
+.theme {
+  background-image: url('../images/dark-img.jpg');
+  color: white;
+}
+
+.large {
+  font-size: 1.5em;
+}
+
+/*-------- Wrapper styling------------------- */
+#wrapper {
+  margin-left: 20px;
+  min-width: 800px;
+  width: 80%;
+  padding: 180px 0 100px;
+  padding-left: 10px;
+  margin: auto;
+  background-color: transparent;
+}
+
+/*-------- Header & Footer Styling-----------*/
+#main-header div h1{
+  display: inline;
+}
+
+article h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#main-header {
+  min-width: 800px;
+  position: fixed;
+  text-align: center;
+  padding-top: 10px;
+  width: 100%;
+  background-color: rgba(200,200,200, .92);
+}
+
+#input-box-style {
+  width: 100%;
+  background-color: transparent;
+}
+
+#main-footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(200,200,200, .9);
+}
+
+#header-font {
+  font-size: 2em;
+  padding-right: 40px;
+}
+
+#user-message-input {
+  background-color: transparent; /*required for swap*/
+  font-family: 'Exo 2', sans-serif;
+  width: 650px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 15px;
+  font-size: .9em;
+  font-weight: 800;
+  outline: none;
+}
+
+#clear-msg {
+  font-family: 'Exo 2', sans-serif;
+  background-color: rgba(185, 185, 150, .1);
+  font-size: .9em;
+  font-weight: 700;
+  height: 35px;
+  border-radius: 15px;
+  margin-top: 5px;
+  outline: none;
+}
+
+#chk-box-style {
+  padding: 5px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+/*-------Message Area Styling ------*/
+.msg-style {
+  width: 100%;
+  padding: 2%;
+  padding-bottom: 50px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: rgba(220, 220, 220, .85); /*required for swap*/
+}
+
+.msg-white {
+  border: 3px solid white;
+  background-color: rgba(220, 220, 220, .20); /*required for swap*/
+}
+
+/*--------- Individual Message Styling-----------*/
+.individualMessageDiv {
+  border-left: 2px solid darkgrey;
+  padding-left: 5px;
+}
+
+.individualMessageDiv p {
+  margin-bottom: 5px;
+}
+
+.deleteButton {
+  font-family: 'Exo 2', sans-serif;
+  background-color: rgba(185, 185, 150, .6);
+  width: 100px;
+  border-radius: 15px;
+  outline: none;
+}

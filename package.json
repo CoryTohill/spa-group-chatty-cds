@@ -1,0 +1,26 @@
+{
+  "name": "spa-group-chatty-cds",
+  "version": "1.0.0",
+  "description": "## Setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoryTohill/spa-group-chatty-cds.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoryTohill/spa-group-chatty-cds/issues"
+  },
+  "homepage": "https://github.com/CoryTohill/spa-group-chatty-cds#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
+  }
+}

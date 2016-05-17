@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chatty!</title>
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:600' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body id="color-theme">
+    <!-- With Logo - Text Input -->
+    <header id="main-header">
+      <div id="input-box-style">
+        <label><h1 id="header-font" for"user-message-input">Chatty! &trade;</h1>
+        <input type="text" id="user-message-input" placeholder="Enter your Chat" autofocus>
+        </label>
+        <input type="button" id="clear-msg" name="clear-msg" value="Clear Message Board" >
+      </div>
+      <div id="chk-box-style">
+        <label for="input-toggle">
+        <input type="checkbox" name="dark-theme" id="input-toggle" value="dark-theme">Dark Theme
+        </label>
+        <label for="large-toggle">
+        <input type="checkbox" name="large-text" id="large-toggle" value="large-text">Large Theme
+        </label>
+      </div>
+    </header>
+    <!-- Content Wrapper containing Messages-->
+    <article id="wrapper">
+      <h1>Messages:</h1>
+      <div id="display-messages" class="msg-style"></div>
+    </article>
+  <!-- Page Footer -->
+  <footer id="main-footer">
+    <p>&copy; 2016 CDS</p>
+  </footer>
+    <!-- Links to Javascript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="js/load.js" type="text/javascript" charset="utf-8" ></script>
+    <script src="js/user-msg.js" type="text/javascript" charset="utf-8" ></script>
+    <script src="js/delete-msg.js" type="text/javascript" charset="utf-8" ></script>
+    <script src="js/main.js" type="text/javascript" charset="utf-8" ></script>
+  </body>
+</html>
+
